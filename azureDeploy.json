@@ -104,7 +104,7 @@
 		"metadata": {
 			"artifactsBaseUrl": ""
 		},
-		"defaultValue": "https://raw.githubusercontent.com/saurabhtrekker/UI1/master"
+		"defaultValue": "https://raw.githubusercontent.com/melamin0/azuresimple/master"
 	},
     "virtualNetworkName": {
       "type": "string",

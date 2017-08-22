@@ -70,6 +70,7 @@
                 "descritpion": "Type of authentication "
             },
             "allowedValues": [
+                "passwordAndsshPublicKey",
                 "sshPublicKey",
                 "password"
             ],
@@ -86,7 +87,12 @@
             "type": "string",
             "allowedValues": [
                 "Standard_D3",
-                "Standard_D4"
+                "Standard_D3_v2",
+                "Standard_D4", 
+                "Standard_D4_v2",
+                "Standard_D5",
+                "Standard_D5_v2",
+                "Standard_A4" 
             ],
             "metadata": {
                 "description": "Azure VM size for VM-Series"
@@ -103,7 +109,7 @@
 		"metadata": {
 			"artifactsBaseUrl": ""
 		},
-		"defaultValue": "https://raw.githubusercontent.com/saurabhtrekker/UI1/master"
+		"defaultValue": "https://raw.githubusercontent.com/melamin0/azuresimple/master"
 	},
     "virtualNetworkName": {
       "type": "string",
